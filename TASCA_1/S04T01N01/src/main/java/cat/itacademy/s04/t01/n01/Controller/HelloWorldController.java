@@ -1,10 +1,8 @@
-package cat.itacademy.s04.t01.n01.Controller;
+package cat.itacademy.s04.t01.n01.controller;
 
-import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.web.bind.annotation.*;
 
 @RestController
-@SpringBootApplication
 public class HelloWorldController {
 
     @GetMapping(value = { "/HelloWorld" })
