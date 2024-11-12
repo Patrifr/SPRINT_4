@@ -1,7 +1,8 @@
-package cat.itacademy.s04.t02.n01.exception;
+package cat.itacademy.s04.t02.n02.exception;
 
-import cat.itacademy.s04.t02.n01.exception.CustomExceptions.FruitExistsException;
-import cat.itacademy.s04.t02.n01.exception.CustomExceptions.FruitNotFoundException;
+
+import cat.itacademy.s04.t02.n02.exception.CustomExceptions.FruitExistsException;
+import cat.itacademy.s04.t02.n02.exception.CustomExceptions.FruitNotFoundException;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.ControllerAdvice;

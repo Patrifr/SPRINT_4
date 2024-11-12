@@ -1,7 +1,8 @@
-package cat.itacademy.s04.t02.n01.controllers;
+package cat.itacademy.s04.t02.n02.controllers;
 
-import cat.itacademy.s04.t02.n01.model.Fruit;
-import cat.itacademy.s04.t02.n01.services.Impl.FruitServiceImpl;
+
+import cat.itacademy.s04.t02.n02.model.Fruit;
+import cat.itacademy.s04.t02.n02.services.Impl.FruitServiceImpl;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
