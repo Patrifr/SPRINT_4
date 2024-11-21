@@ -1,10 +1,10 @@
-package cat.itacademy.s04.t02.n01.services.Impl;
+package cat.itacademy.s04.t02.n01.service.Impl;
 
 import cat.itacademy.s04.t02.n01.exception.CustomExceptions.FruitExistsException;
 import cat.itacademy.s04.t02.n01.exception.CustomExceptions.FruitNotFoundException;
 import cat.itacademy.s04.t02.n01.model.Fruit;
 import cat.itacademy.s04.t02.n01.repository.FruitRepository;
-import cat.itacademy.s04.t02.n01.services.FruitService;
+import cat.itacademy.s04.t02.n01.service.FruitService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
